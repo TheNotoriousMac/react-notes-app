@@ -19,6 +19,7 @@ code {
   margin-left: auto;
   padding-right: 15px;
   padding-left: 15px;
+  min-height: 100vh;
 }
 
 /* NotesList.js CSS */
@@ -77,4 +78,51 @@ textarea:focus{
 
 .delete-icon {
   cursor: pointer;
+}
+
+/* Search.js CSS */
+.search{
+  display: flex;
+  align-items: center;
+  background-color: rgb(233,233,233);
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 1.5em;
+}
+
+.search input {
+  border: none;
+  background-color: rgb(233,233,233);
+}
+
+.search input:focus{
+  outline: none;
+}
+
+/* Header.js CSS */
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-button{
+  background-color: #e1e1e1;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
+}
+
+.header-button:hover{
+  background-color: #ededed;
+  cursor: pointer;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: black;
+}
+
+.dark-mode h1{
+  color: white;
 }
